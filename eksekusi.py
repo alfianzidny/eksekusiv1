@@ -32,7 +32,7 @@ def main():
 	br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(), max_time=1)
 	hell()
 	search()
-	print("Wordlist Habis! Let's try again - Nelo.F4")
+	print("Wordlist Habis! Let's try again - Yanflow")
 
 	
 	
@@ -48,7 +48,7 @@ def brute(password):
 	log = sub.geturl()
 	if log != login and (not 'login_attempt' in log):
 			print("\n\n[+] Password Detected! = {}".format(password))
-			raw_input("Have a nice day - Nelo.F4")
+			raw_input("Have a nice day - Yanflow")
 			sys.exit(1)
 
 			
@@ -87,7 +87,7 @@ def hell():
     print (wkwk)
     print "  [!] Target : {}".format(email)
     print "  [!] Loaded :" , len(total), "password"
-    print "  [!] Wait, ngopi aja dulu ...\n\n"
+    print "  [!] Santayy, ngopi aja dulu ...\n\n"
 
 
 if __name__ == '__main__':
